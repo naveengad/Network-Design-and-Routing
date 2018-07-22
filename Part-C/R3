@@ -1,0 +1,27 @@
+Before changing R1-R3 edge weight:
+R1-R3 weight is 6.
+
+Routing Table of Node R3
+Dest.	Cost	Next
++++++++++++++++++++++++
+R4	5	R4
+R1	6	R1
+R2	9	R4
+R3	0	R3
+H2	7	R4
+H1	8	R1
++++++++++++++++++++++++
+
+After changing R1-R3 edge weight:
+R1-R3 weight is 1.
+
+Routing Table of Node R3
+Dest.	Cost	Next
++++++++++++++++++++++++
+R4	5	R4
+R1	1	R1
+R2	9	R4
+R3	0	R3
+H2	7	R4
+H1	3	R1
++++++++++++++++++++++++
